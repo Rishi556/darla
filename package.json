@@ -1,6 +1,6 @@
 {
   "name": "darla",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An easy to use logger",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "Rishi Panthee<hello@rishipanthee.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rishi556/darla.git"
+  }
 }
