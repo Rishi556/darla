@@ -125,6 +125,14 @@ function setLogFilePath(path){
 }
 
 /**
+ * Returns log path
+ * @returns log path
+ */
+function getLogFilePath(){
+  return file_path
+}
+
+/**
  * Modifys a config element
  * @param {String} location location to edit, either console or file 
  * @param {String} level level to edit, can be debug info warn or error
@@ -178,12 +186,22 @@ function setLevel(location, level){
   }
 }
 
+/**
+ * Returns config
+ * @returns config
+ */
+function getConfig(){
+  return config
+}
+
 module.exports = {
   debug,
   info,
   warn,
   error,
   setLogFilePath,
+  getLogFilePath,
   modifyConfig,
-  setLevel
+  setLevel,
+  getConfig
 }
